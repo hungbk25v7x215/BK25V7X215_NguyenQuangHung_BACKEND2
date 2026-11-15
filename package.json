@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "bun --watch server.js",
-    "start": "bun server.js"
+    "start": "bun server.js",
+    "seed": "bun scripts/seed.js"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -16,6 +17,7 @@
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.3.0",
-    "nodemon": "^3.1.14"
+    "mongodb": "^7.9.0",
+    "swagger-ui-express": "^5.0.1"
   }
 }
